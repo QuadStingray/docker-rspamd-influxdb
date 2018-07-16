@@ -7,6 +7,7 @@
   - [Installation](#installation)
   - [Quickstart](#quickstart)
   - [Environment Variables](#environment-variables)
+  - [Grafana](#grafana)
 
 # Introduction
 Git-Repository to build [Docker](https://www.docker.com/) Container Image to import statistics from [rspamd](https://rspamd.com/) to influxdb. The Implementation is inspired by https://github.com/thannaske/rspamd-influxdb
@@ -60,3 +61,9 @@ docker run --publish 27017:27017 quadstingray/rspamd-influxdb:0.5.0
 | INFLUXDB_DB            | rspamd             | Database at your InfluxDb installation |
 | INFLUXDB_USER                 | DEFAULT             | optional user for insert to your InfluxDb |
 | INFLUXDB_PWD               | DEFAULT            | optional password for insert to your InfluxDb |
+
+## Grafana
+There is an sample grafana dashboard at this repository. You can import that to your Grafana installation. [Sample dashboard.json](grafana/dashboard.json)
+
+![](grafana/dashboard_sample.png)
+
