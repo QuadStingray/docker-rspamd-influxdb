@@ -41,10 +41,8 @@ docker build . --tag 'quadstingray/rspamd-influxdb:dev';
 ```
 
 ## Quickstart
-Start MongoDB using:
-
 ```bash
-docker run --publish 27017:27017 quadstingray/rspamd-influxdb:0.5.0
+docker run -e "RSPAMD_URL=https://YOUR-URL" -e "RSPAMD_PASSWORD=YOUR-PASSWORD" quadstingray/rspamd-influxdb:0.5.0 
 ```
 
 *Alternatively, you can use the sample [docker-compose.yml](docker-compose.yml) file to start the container using [Docker Compose](https://docs.docker.com/compose/)*
