@@ -63,5 +63,5 @@ docker run -e "RSPAMD_URL=https://YOUR-URL" -e "RSPAMD_PASSWORD=YOUR-PASSWORD" q
 ## Grafana
 There is an sample grafana dashboard at this repository. You can import that to your Grafana installation. [Sample dashboard.json](grafana/dashboard.json)
 
-![](grafana/dashboard_sample.png)
+![](https://raw.githubusercontent.com/QuadStingray/docker-speedtest-influxdb/master/images/dashboard_sample.png)
 
